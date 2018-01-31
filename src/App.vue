@@ -1,7 +1,14 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
+    
     <router-view/>
+    <div class="tabbar">
+      <router-link to="/home">首页</router-link>
+      <router-link to="/shop">商城</router-link>
+      <router-link to="/go">到店</router-link>
+      <router-link to="/fashion">时尚圈</router-link>
+      <router-link to="/mine">我的</router-link>
+    </div>
   </div>
 </template>
 
